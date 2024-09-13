@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+   
+    
+}  
+ center #boasvindas{
+    color:#000;
+    padding-top: 30px;
+    font-size: 12px;
+}
+center #name-profile{
+    margin-top: 8px;
+    color: #000;
+}
+center #profissional{
+    margin-top: 8px;
+    padding-bottom: 10px;
+    color:#000;
+}
+center #profissional1{
+    margin-top: 0px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+center{
+    background-color: white;
+}
+
+.photo{
+    
+    border-radius: 50%;
+    margin-top: 18px;
+}
+.principal1{
+    max-width: 1000px;
+    background-color: #191970;
+    margin: auto;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+.servicos{
+
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.principal{
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+.sobre{
+    text-align: center;
+    padding-top: 10px;
+
+}
+#texto-princpal1{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+#texto-princpal{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+    background-color: #191970;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+     cursor: pointer;
+     transition: 3s ease all;
+     font-size: 16px;
+     width: 99%;
+     border-radius: 3px;
+     margin-top: 10px;
+    }
+/*efeitos do botão*/
+.btn:hover{
+    background-color:#fff;
+    color: #000;
+}
+.btn i{
+    margin-right: 8px;/*espaçamento do botão com icone*/
+}
+
+#footer{
+    background-color:#191970;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+@media screen and (max-width: 102px) {
+    body {
+      background-color: white;
+    }
+    center #boasvindas{
+        margin-left: 20px;
+    }
+    center #name-profile{
+        margin-left: 12px;
+    }
+    center #profissional{
+        margin-left: 12px;
+    }
+    center #profissional1{
+        margin-left: 12px;
+    }
+    .principal{
+        margin-left: 12px;
+
+     }
+  }
